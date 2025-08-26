@@ -29,10 +29,6 @@ O algoritmo de Karatsuba é uma técnica eficiente para multiplicar dois número
 
 Essa abordagem reduz a complexidade de multiplicação de O(n^2) para aproximadamente O(n^1.585), tornando o algoritmo mais eficiente para números grandes.
 
-## SRP (Single Responsibility Principle)
-
-O código foi estruturado seguindo o princípio da responsabilidade única, separando funções para entrada, processamento e saída.
-
 ## Relatório Técnico
 
 ### Análise da Complexidade Ciclomática
