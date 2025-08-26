@@ -124,8 +124,8 @@ Result: 12
 ```
 
 ## Documentação e links úteis
-https://pt.wikipedia.org/wiki/Algoritmo_de_Karatsuba
-https://www.youtube.com/watch?v=LCY4dnm88oI
+- https://pt.wikipedia.org/wiki/Algoritmo_de_Karatsuba
+- https://www.youtube.com/watch?v=LCY4dnm88oI
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
