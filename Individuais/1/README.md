@@ -29,6 +29,28 @@ O algoritmo de Karatsuba é uma técnica eficiente para multiplicar dois número
 
 Essa abordagem reduz a complexidade de multiplicação de O(n^2) para aproximadamente O(n^1.585), tornando o algoritmo mais eficiente para números grandes.
 
+## Modelo para main.py
+
+Arquivo: wrapper.py
+Objetivo: Adapta funções para ajustarem suas entradas e saídas ao formato necessário.
+
+- binary_search_wrapper(arr)
+  Envolve a função binary_search.
+  Busca o último elemento de uma lista e retorna o resultado em uma lista.
+
+- linear_search_wrapper(arr)
+  Envolve a função linear_search.
+  Busca o último elemento de uma lista e retorna o resultado em uma lista.
+
+- sum_list_wrapper(arr)
+  Envolve a função sum_list.
+  Soma os elementos de uma lista e encapsula o resultado em uma lista.
+
+Estrutura do arquivo:
+
+- Importa as funções do arquivo functions.py.
+- Adiciona camadas de abstração para facilitar o uso em análises automáticas.
+
 ## Relatório Técnico
 
 ### Análise da Complexidade Ciclomática
