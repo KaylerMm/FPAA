@@ -32,3 +32,61 @@ Essa abordagem reduz a complexidade de multiplicação de O(n^2) para aproximada
 ## SRP (Single Responsibility Principle)
 
 O código foi estruturado seguindo o princípio da responsabilidade única, separando funções para entrada, processamento e saída.
+
+## Relatório Técnico
+
+### Análise da Complexidade Ciclomática
+
+#### Fluxo de Controle da Função `multiply`
+
+- Início
+- Verifica se `x < 10` ou `y < 10`
+  - Se verdadeiro: retorna multiplicação direta
+  - Se falso: executa divisão dos números, chamadas recursivas e retorna resultado combinado
+
+#### Grafo de Fluxo
+
+- Nós:
+  1. Início
+  2. Condição (`x < 10 or y < 10`)
+  3. Retorno direto
+  4. Divisão dos números
+  5. Chamada recursiva z0
+  6. Chamada recursiva z1
+  7. Chamada recursiva z2
+  8. Retorno combinado
+
+- Arestas:
+  - Início → Condição
+  - Condição → Retorno direto
+  - Condição → Divisão dos números
+  - Divisão dos números → z0
+  - z0 → z1
+  - z1 → z2
+  - z2 → Retorno combinado
+
+- Cálculo:
+  - E (arestas) = 7
+  - N (nós) = 8
+  - P (componentes conexos) = 1
+
+  **Complexidade ciclomática:**  
+  M = E − N + 2P = 7 − 8 + 2×1 = 1
+
+  (Obs: Para cada chamada recursiva, o grafo se repete, mas a função principal tem 1 caminho de decisão.)
+
+---
+
+### Análise da Complexidade Assintótica
+
+- **Complexidade temporal:**  
+  O(n^log2(3)) ≈ O(n^1.585)  
+  (n = número de dígitos dos inteiros)
+
+- **Complexidade espacial:**  
+  O(n), devido à profundidade da recursão e armazenamento temporário das variáveis.
+
+- **Casos:**
+  - Melhor caso: Quando um dos números tem apenas 1 dígito (multiplicação direta, O(1))
+  - Caso médio: Números de tamanho semelhante, O(n^1.585)
+  - Pior caso: Números grandes, O(n^1.585) (a recursão é sempre dividida pela metade)
