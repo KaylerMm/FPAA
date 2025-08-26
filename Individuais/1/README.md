@@ -96,6 +96,8 @@ Estrutura do arquivo:
   M = E − N + 2P = 7 − 8 + 2×1 = 1
 
   (Obs: Para cada chamada recursiva, o grafo se repete, mas a função principal tem 1 caminho de decisão.)
+  
+<img width="1818" height="3840" alt="diagramaComplexidade" src="https://github.com/user-attachments/assets/2db69784-465a-4063-95a1-c20de7097e6f" />
 
 ---
 
