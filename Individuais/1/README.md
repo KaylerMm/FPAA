@@ -86,3 +86,18 @@ Essa abordagem reduz a complexidade de multiplicação de O(n^2) para aproximada
   - Melhor caso: Quando um dos números tem apenas 1 dígito (multiplicação direta, O(1))
   - Caso médio: Números de tamanho semelhante, O(n^1.585)
   - Pior caso: Números grandes, O(n^1.585) (a recursão é sempre dividida pela metade)
+
+## Saída da Execução
+Exemplo de saídas na execução:
+```python
+Enter the first integer: 3
+Enter the second integer: 4
+Result: 12
+```
+
+## Documentação e links úteis
+https://pt.wikipedia.org/wiki/Algoritmo_de_Karatsuba
+https://www.youtube.com/watch?v=LCY4dnm88oI
+
+## Licença
+Este projeto está licenciado sob a Licença MIT.
