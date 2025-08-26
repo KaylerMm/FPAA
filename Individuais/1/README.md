@@ -31,25 +31,29 @@ Essa abordagem reduz a complexidade de multiplicação de O(n^2) para aproximada
 
 ## Modelo para main.py
 
-Arquivo: wrapper.py
-Objetivo: Adapta funções para ajustarem suas entradas e saídas ao formato necessário.
+Arquivo: main.py
+Objetivo: Implementa o algoritmo de Karatsuba para multiplicação eficiente de números inteiros.
 
-- binary_search_wrapper(arr)
-  Envolve a função binary_search.
-  Busca o último elemento de uma lista e retorna o resultado em uma lista.
+- KaratsubaMultiplier.multiply(x, y)
+  Implementa o algoritmo de Karatsuba recursivamente.
+  Divide números em partes e combina resultados para multiplicação eficiente.
 
-- linear_search_wrapper(arr)
-  Envolve a função linear_search.
-  Busca o último elemento de uma lista e retorna o resultado em uma lista.
+- InputHandler.get_numbers()
+  Responsável por capturar os dois números inteiros do usuário.
+  Retorna uma tupla com os valores inseridos.
 
-- sum_list_wrapper(arr)
-  Envolve a função sum_list.
-  Soma os elementos de uma lista e encapsula o resultado em uma lista.
+- OutputHandler.show_result(result)
+  Exibe o resultado da multiplicação formatado.
+  Encapsula a apresentação da saída ao usuário.
+
+- KaratsubaApp.run()
+  Orquestra a execução do programa.
+  Coordena entrada, processamento e saída seguindo SRP.
 
 Estrutura do arquivo:
 
-- Importa as funções do arquivo functions.py.
-- Adiciona camadas de abstração para facilitar o uso em análises automáticas.
+- Implementa classes separadas para cada responsabilidade.
+- Seguindo o princípio da responsabilidade única (SRP).
 
 ## Relatório Técnico
 
