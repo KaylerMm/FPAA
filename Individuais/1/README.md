@@ -96,6 +96,7 @@ Estrutura do arquivo:
   M = E − N + 2P = 7 − 8 + 2×1 = 1
 
   (Obs: Para cada chamada recursiva, o grafo se repete, mas a função principal tem 1 caminho de decisão.)
+  <img width="502" height="639" alt="diagramaCiclomatica" src="https://github.com/user-attachments/assets/aba003a8-26a6-4c48-8222-8e9e13a3afcd" />
 
 ---
 
@@ -122,8 +123,8 @@ Result: 12
 ```
 
 ## Documentação e links úteis
-https://pt.wikipedia.org/wiki/Algoritmo_de_Karatsuba
-https://www.youtube.com/watch?v=LCY4dnm88oI
+- https://pt.wikipedia.org/wiki/Algoritmo_de_Karatsuba
+- https://www.youtube.com/watch?v=LCY4dnm88oI
 
 ## Licença
 Este projeto está licenciado sob a Licença MIT.
