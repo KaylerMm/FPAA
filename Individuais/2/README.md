@@ -201,7 +201,6 @@ Number of comparisons: 0
 
 ## Documentação e links úteis
 
-- [Introduction to Algorithms - CLRS](https://mitpress.mit.edu/books/introduction-algorithms-third-edition)
 - [Divide and Conquer Algorithms](https://www.geeksforgeeks.org/divide-and-conquer/)
 - [Master Theorem](https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms))
 
