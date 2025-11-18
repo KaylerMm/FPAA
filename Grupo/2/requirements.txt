@@ -1,0 +1,25 @@
+# FloodFill - Sistema de Mapeamento de Terreno - Dependências
+
+# Dependências do Sistema (instalar com gerenciador de pacotes):
+# Ubuntu/Debian: sudo apt-get install python3-tk
+# CentOS/RHEL: sudo yum install tkinter
+# Fedora: sudo dnf install python3-tkinter
+# Arch Linux: sudo pacman -S tk
+# macOS: tkinter incluído com Python
+# Windows: tkinter incluído com Python
+
+# Módulos da Biblioteca Padrão Python usados (sem necessidade de instalação pip):
+# - tkinter (framework GUI)
+# - typing (dicas de tipo)
+# - abc (classes abstratas base)
+# - random (geração de números aleatórios)
+# - time (atrasos e cronometragem)
+# - threading (execução concorrente)
+
+# Nenhum pacote pip adicional é necessário para este projeto!
+
+# Para verificar se tkinter está disponível:
+# python3 -c "import tkinter; print('tkinter disponível!')"
+
+# Se encontrar erro "ModuleNotFoundError: No module named 'tkinter'":
+# Execute o comando de instalação apropriado para seu sistema operacional acima
