@@ -1,5 +1,12 @@
 # FloodFill - Sistema de Mapeamento de Regiões de Terreno
 
+## Contribuidores
+- [André Augusto](https://github.com/AndreAugusto0908)
+- [Gabriel Matos](https://github.com/gabrielmatosmartins)
+- [Italo Lelis](https://github.com/italohdc)
+- [Kayler Moura](https://github.com/KaylerMm)
+- [Pedro Couto](https://github.com/PedroPCouto)
+
 ## Como Executar o Projeto
 
 ### Pré-requisitos
